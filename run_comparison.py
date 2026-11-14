@@ -27,5 +27,5 @@ def main(): #define main script entry point
     fig = plot_comparison(grid, {"Dijkstra": d_path, "A*": a_path}) #generate a side-by-side plot of both paths on the grid
     plt.show() #display the matplotlib window
 
-    if __name__ == "__main__": #standard boilerplate to run main when script is invoked directly
-        main() #call the main execution routine
+if __name__ == "__main__": #standard boilerplate to run main when script is invoked directly
+    main() #call the main execution routine
